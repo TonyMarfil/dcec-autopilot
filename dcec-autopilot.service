@@ -1,0 +1,8 @@
+[Unit]
+Description=dcec-autopilot
+
+[Service]
+ExecStart=/dcec-autopilot.sh
+
+[Install]
+WantedBy=multi-user.target
